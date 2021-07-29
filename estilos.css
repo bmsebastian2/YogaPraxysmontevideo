@@ -1,0 +1,425 @@
+/* PREMENU */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.botongoogle2{
+    position: absolute;
+    display: inline-block;
+    width: 15%;
+    margin-left: 84%;
+    margin-top: 25%;
+   
+}
+.botongoogle{
+    position: absolute;
+    display: inline-block;
+    margin-left: 85%;
+    margin-top: 34%;
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+}
+.lista1{
+   
+    text-align:left;
+    
+   }
+.lista2{
+    
+    text-align: right;
+    
+   }
+   ul{
+    margin: 0;
+    padding: 0;
+   
+  }
+   ul li{
+    display: inline;
+     
+   
+   }
+   a{
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    margin-left: 5px;
+   }
+   a:hover{
+       color: yellow;
+      
+   }
+   #premenu{
+   
+    /* background-color: rgb(197, 91, 227); */
+    background-color: #6a0080;
+         
+   }
+   #whatmenu{
+    background: #00EA7F;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   }
+   #whatmenu:hover{
+    background: #195038;
+    
+   }
+   #whatmenu2{
+    background: #00EA7F;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1%;
+    width: 150px;
+
+    }
+    #whatmenu2:hover{
+        background: #195038;
+        border: 2px solid rgb(255, 189,0);;
+    }
+/* PREMENU */
+
+#yoga{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 35px;
+    margin-left: 5%;
+    
+}
+
+#imagenprincipal{
+    height: 80vh;
+    width: 100%;
+    border: 0px;
+    padding: 0px; 
+    /* min-height: 100vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top; */
+
+  
+}
+.micontenedor{
+   position: absolute;
+   top: 35%;
+   left: 2%;
+   color:black;
+}
+
+.fatherdireccion{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    
+    
+}
+   
+.texto1{
+   
+   
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-family: 'Work Sans', sans-serif;
+ 
+  color: #050005;
+  font-size: 15px;
+  padding-top: 25px;
+ padding-bottom: 20px;;
+ padding-left: 40px;
+ padding-right: 40px;;
+  text-decoration: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: rgb(201, 252, 14);
+  background: -moz-linear-gradient(top, #cbfd28, #b1fb1e);
+  border: none;
+  letter-spacing: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+#iconowhatapps{
+    display: inline-block;
+    height: 2rem;
+    margin-right: 5px;
+          
+    filter: invert(0.5) sepia(1) saturate(5) hue-rotate(426deg);
+    
+    
+}
+
+#boton{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.letrasprincipales{
+    color:rgba(0, 228,106);
+    
+}
+.contenidotextocarrousel{
+    font-family: verdana;
+    text-align: left;
+    font-size: 40px;
+    
+    word-spacing: -3px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+   
+}
+
+.parrafo{
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+#card1{
+
+border-top: 10px solid rgb(131,60,151);
+
+}
+#contenedorbienvenidos{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: rgb(131,60,151);
+
+}
+#bienvenidos{
+    font-size: 1.5em;
+
+}
+
+#contenidobienvenidos{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;;
+    font-style: italic;
+}
+
+.primerparrafo{
+    text-align: justify;
+}
+
+
+.contenedordireccion{
+   
+   margin-top: 7%;
+   margin-bottom: 8%;
+   
+}
+
+
+
+.textodireccion{
+    color:#CB004F;
+}
+.textodireccion.primero{
+    
+
+    
+}
+.textodireccion.segundo{
+    
+    font-size: 2rem;
+    
+}
+iframe{
+    max-width: 70%;
+    height: 70%;
+    margin: 20px;
+   
+}
+
+
+.imagen3{
+    width: 100%;
+}
+
+#divisorimagen{
+    background: linear-gradient( to  right top, rgb(24, 34,51),#5d6668);
+     
+ }
+
+#fraseyoga{
+ 
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+    color: #40c4ff;
+    text-shadow: 2px 2px black;
+}
+
+
+.caja{
+    position: relative;
+    display: inline-block;
+    border-bottom: solid 5px black;
+    border-top: solid 5px black;
+}
+
+.textoa{
+    position: absolute;
+    top: 10px;
+    left: 10%;
+}
+.textob{
+   position: absolute;
+   top: 80%;
+   right: 10%;
+}
+
+#imagenlarga{
+     width: 100%;
+    
+    transition: opacity 1000ms ease;
+    opacity: 1;
+}
+
+#coronavirus{
+    filter: invert(0.5) sepia(1) saturate(59) hue-rotate(-19deg);
+}
+
+/* FOOTER */
+
+ #footer{
+background: rgb(24, 34,51);
+} 
+
+#imagenfooter{
+    width: 60%;
+}
+
+
+.iconoRedesSociales{
+    width: 50%;
+    
+}
+hr.new1{
+    
+    height: 8px;
+    background-color: rgb(255, 189,0);
+}
+hr.new2{
+    border:2px solid rgb(255, 189,0);
+}
+ .parrafofinal{
+  
+    font-size: 12px;
+   
+    
+    background: rgb(24, 34,51);
+} 
+/* FOOTER */
+
+
+.iconoRedesSociales:hover{
+    padding: 10px;
+    
+}
+.iconoRedesSociales{
+    transition:  linear 0.2s;
+}
+
+
+
+.listafooter{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana,sans-serif;
+  }
+  .listafooter:hover {
+      color: rgb(255, 189,0);
+  }
+  .listafooter {
+      transition: color 0.1s linear 0.1s;
+  }
+
+  #direccion{
+      font-size: 12px;
+  }
+  
+  
+ 
+  /* SECTION MODALIDAD */
+
+  .seccionmodalidad{
+      background:linear-gradient(to right top,#1b1b1b,#6d6d6d);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+  }
+
+
+   /* SECTION MODALIDAD */
+
+
+
+
+   
+
+
+
+   @media (max-width: 1200px) {
+    
+   
+    #premenu {
+      display: none;
+    }
+    #contenedorwhatapp{
+        display: none;
+    }
+    .botongoogle2 {
+        display: none;
+      }
+    .botongoogle{
+        display: none;
+      }
+    .micontenedorletras {
+      display: none;
+    }
+    .parrafo{
+        display: none;
+    }
+    .fatherdireccion{
+        flex-direction: column;
+    }
+  }
+  
+    @media (max-width: 1150px) {
+        #fraseyoga{
+            font-size: 30px;
+    }
+}
+    @media (max-width: 900px) {
+        #yoga{
+            font-size: 22px;
+     }
+     
+    }
+    
+    @media (max-width: 600px) {
+        #fraseyoga{
+            font-size: 20px;
+        }
+        .textodireccion.segundo{
+            font-size: 15px;
+        }
+        #yoga{
+            font-size: 17px;
+         }
+         #imagenprincipal{
+            min-height: 40vh;
+        }
+       
+        
+}
+
+    

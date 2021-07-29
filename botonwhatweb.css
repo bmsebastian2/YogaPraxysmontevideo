@@ -1,0 +1,103 @@
+button.click{
+    font-size: 1.4em;
+    background:rgb(201, 252, 14);
+    color:black;
+    border: 0.25rem solid rgb(201, 252, 14);
+    padding: 0.85em 0.75em;
+    margin: 1rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    
+  }
+  button.click2{
+    background:rgb(201, 252, 14);
+    padding: 0.85em 0.75em;
+    
+  }
+  button.click:hover {
+    color:#4727E6;
+  }
+  button.click::after {
+    content: "";
+    background: #ecf0f1;
+    position: absolute;
+    z-index: -1;
+    padding: 0.85em 0.75em;
+    display: block;
+  }
+  button.click[class^="slide"]::after {
+    transition: all 0.35s;
+  }
+  button.click[class^="slide"]:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.35s;
+  }
+  button.click.slide_from_left::after {
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+  }
+  button.click[class^="grow"]::after {
+    transition: all 0.3s ease;
+  }
+  button.click[class^="grow"]:hover::after {
+    transition: all 0.3s ease-out;
+  }
+  button.click.grow_box::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0);
+  }
+  button.click.grow_box:hover::after {
+    transform: scale(1, 1);
+  }
+  button.click.grow_ellipse::after {
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    line-height: 8.34em;
+    transform: scale(0, 0);
+  }
+  button.click.grow_ellipse:hover::after {
+    transform: scale(1, 1);
+  }
+  button.click.grow_skew_forward::after {
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+  }
+  button.click.grow_skew_forward:hover::after {
+    transform: skewX(-45deg) scale(1, 1);
+  }
+  button.click.grow_skew_backward::after {
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(45deg) scale(0, 1);
+  }
+  button.click.grow_skew_backward:hover::after {
+    transform: skewX(45deg) scale(1, 1);
+  }
+  button.click.grow_spin::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0) rotate(-180deg);
+  }
+  button.click.grow_spin:hover::after {
+    transform: scale(1, 1) rotate(0deg);
+  }
+          

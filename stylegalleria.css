@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    transition:all .4s ease-in-out;
+}
+img{
+    
+    overflow:hidden;
+}
+
